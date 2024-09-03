@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UltEvents;
 
 namespace UnityAtoms
 {
@@ -26,7 +27,7 @@ namespace UnityAtoms
     [EditorIcon("atom-icon-orange")]
     public abstract class AtomBaseListener<T, E, UER> : AtomBaseListener, IAtomListener<T>
         where E : AtomEvent<T>
-        where UER : UnityEvent<T>
+        where UER : UltEvent<T>
     {
         /// <summary>
         /// The Event we are listening for as a property.

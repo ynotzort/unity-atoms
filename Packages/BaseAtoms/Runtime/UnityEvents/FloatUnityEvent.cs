@@ -1,5 +1,6 @@
 using System;
 using UnityEngine.Events;
+using UltEvents;
 
 namespace UnityAtoms.BaseAtoms
 {
@@ -7,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// None generic Unity Event of type `float`. Inherits from `UnityEvent&lt;float&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class FloatUnityEvent : UnityEvent<float> { }
+    public sealed class FloatUnityEvent : UltEvent<float> { }
 }

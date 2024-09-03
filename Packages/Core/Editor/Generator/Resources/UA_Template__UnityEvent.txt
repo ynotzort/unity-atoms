@@ -1,6 +1,7 @@
 using System;
 using UnityEngine.Events;
 <%IF TYPE_HAS_NAMESPACE%>using {TYPE_NAMESPACE};<%ENDIF%>
+using UltEvents;
 
 <%IF HAS_SUB_UA_NAMESPACE%>
 namespace UnityAtoms.{SUB_UA_NAMESPACE}
@@ -12,5 +13,5 @@ namespace UnityAtoms
     /// None generic Unity Event of type `{VALUE_TYPE}`. Inherits from `UnityEvent&lt;{VALUE_TYPE}&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class {VALUE_TYPE_NAME}UnityEvent : UnityEvent<{VALUE_TYPE}> { }
+    public sealed class {VALUE_TYPE_NAME}UnityEvent : UltEvent<{VALUE_TYPE}> { }
 }

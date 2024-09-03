@@ -1,6 +1,7 @@
 using System;
 using UnityEngine.Events;
 using UnityEngine;
+using UltEvents;
 
 namespace UnityAtoms.BaseAtoms
 {
@@ -8,5 +9,5 @@ namespace UnityAtoms.BaseAtoms
     /// None generic Unity Event of type `Vector3Pair`. Inherits from `UnityEvent&lt;Vector3Pair&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class Vector3PairUnityEvent : UnityEvent<Vector3Pair> { }
+    public sealed class Vector3PairUnityEvent : UltEvent<Vector3Pair> { }
 }

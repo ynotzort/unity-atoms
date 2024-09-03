@@ -1,6 +1,7 @@
 using System;
 using UnityEngine.Events;
 using UnityAtoms.SceneMgmt;
+using UltEvents;
 
 namespace UnityAtoms.SceneMgmt
 {
@@ -8,5 +9,5 @@ namespace UnityAtoms.SceneMgmt
     /// None generic Unity Event x 2 of type `SceneField`. Inherits from `UnityEvent&lt;SceneField, SceneField&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class SceneFieldSceneFieldUnityEvent : UnityEvent<SceneField, SceneField> { }
+    public sealed class SceneFieldSceneFieldUnityEvent : UltEvent<SceneField, SceneField> { }
 }

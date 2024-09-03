@@ -1,5 +1,6 @@
 using System;
 using UnityEngine.Events;
+using UltEvents;
 
 namespace UnityAtoms.BaseAtoms
 {
@@ -7,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// None generic Unity Event of type `DoublePair`. Inherits from `UnityEvent&lt;DoublePair&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class DoublePairUnityEvent : UnityEvent<DoublePair> { }
+    public sealed class DoublePairUnityEvent : UltEvent<DoublePair> { }
 }

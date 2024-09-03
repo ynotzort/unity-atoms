@@ -1,5 +1,6 @@
 using System;
 using UnityEngine.Events;
+using UltEvents;
 
 namespace UnityAtoms.BaseAtoms
 {
@@ -7,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// None generic Unity Event of type `StringPair`. Inherits from `UnityEvent&lt;StringPair&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class StringPairUnityEvent : UnityEvent<StringPair> { }
+    public sealed class StringPairUnityEvent : UltEvent<StringPair> { }
 }

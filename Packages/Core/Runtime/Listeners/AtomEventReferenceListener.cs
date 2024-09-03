@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UltEvents;
 
 namespace UnityAtoms
 {
@@ -14,7 +15,7 @@ namespace UnityAtoms
     public abstract class AtomEventReferenceListener<T, E, ER, UER> : AtomBaseListener<T, E, UER>, IAtomListener<T>
         where E : AtomEvent<T>
         where ER : IGetEvent, ISetEvent, new()
-        where UER : UnityEvent<T>
+        where UER : UltEvent<T>
     {
         /// <summary>
         /// The Event we are listening for as a property.
