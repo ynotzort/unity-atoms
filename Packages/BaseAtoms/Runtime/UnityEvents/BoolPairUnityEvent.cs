@@ -8,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// None generic Unity Event of type `BoolPair`. Inherits from `UnityEvent&lt;BoolPair&gt;`.
     /// </summary>
     [Serializable]
-    public sealed class BoolPairUnityEvent : Ultevent<BoolPair> { }
+    public sealed class BoolPairUnityEvent : UltEvent<BoolPair> { }
 }
