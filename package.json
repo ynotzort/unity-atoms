@@ -37,5 +37,8 @@
     "/package.json.meta",
     "/Packages",
     "/Packages.meta"
-  ]
+  ],
+  "dependencies": {
+    "com.kybernetik.ultevents": "3.0.3"
+  }
 }
