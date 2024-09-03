@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsMonoHooks.Editor",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityAtoms.UnityAtomsCore.Editor",
         "UnityAtoms.UnityAtomsBaseAtoms.Runtime",

@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsInputSystem.Editor",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityAtoms.UnityAtomsCore.Editor",
         "Unity.InputSystem",

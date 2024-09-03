@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsSceneMgmt.Runtime",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityAtoms.UnityAtomsBaseAtoms.Runtime"
     ],

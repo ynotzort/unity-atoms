@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsInputSystem.Runtime",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
         "Unity.InputSystem"

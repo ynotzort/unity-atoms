@@ -1,6 +1,8 @@
 {
     "name": "UnityAtoms.UnityAtomsCore.Runtime",
-    "references": [],
+    "references": [
+        "Kybernetik.UltEvents"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

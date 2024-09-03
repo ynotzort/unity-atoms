@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsBaseAtoms.Runtime",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Editor",
         "UnityAtoms.UnityAtomsCore.Runtime"
     ],

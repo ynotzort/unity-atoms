@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsMobile.Editor",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsMobile.Runtime",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityAtoms.UnityAtomsCore.Editor"

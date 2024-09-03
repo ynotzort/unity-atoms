@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsTags.Runtime.Tests",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsTags.Runtime",
         "UnityAtoms.UnityAtomsCore.Runtime",
         "UnityEngine.TestRunner",

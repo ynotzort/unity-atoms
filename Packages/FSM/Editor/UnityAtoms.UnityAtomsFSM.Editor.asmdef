@@ -1,6 +1,7 @@
 {
     "name": "UnityAtoms.UnityAtomsFSM.Editor",
     "references": [
+        "Kybernetik.UltEvents",
         "UnityAtoms.UnityAtomsCore.Editor",
         "UnityAtoms.UnityAtomsFSM.Runtime",
         "UnityAtoms.UnityAtomsCore.Runtime",
