@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unity-atoms/unity-atoms.git"
+    "url": "git+https://github.com/ynotzort/unity-atoms.git"
   },
   "unity": "2018.3",
   "description": "Tiny modular pieces utilizing the power of Scriptable Objects",
